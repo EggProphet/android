@@ -2,10 +2,6 @@
 <manifest>
 
   <remote  name="github"
-           fetch=".."
-           review="review.lineageos.org" />
-
-  <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
@@ -504,6 +500,6 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <include name="snippets/cm.xml" />
+  <include name="snippets/bitter-polonium.xml" />
 
 </manifest>

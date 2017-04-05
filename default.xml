@@ -16,7 +16,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="LineageOS/android_build" groups="pdk,tradefed">
+  <project path="build" name="EggProphet/android_build_bitter_polonium" groups="pdk,tradefed" revision="refs/heads/bp-14.1">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
